@@ -1,0 +1,37 @@
+			.tablero{
+				width: 416px;
+				height: 416px;								
+				border: 1px solid black;
+				margin-left: 33%;
+				margin-top: auto;				
+			}
+
+			.tablero div{
+				width: 50px;
+				height: 50px;
+				border: 1px solid black;
+				float: left;
+				background-color: #c90c0c;
+				font-family: 'Chango', cursive;				
+				font-size: 30;	
+				text-align: center;
+			}
+			
+			body{
+				background-image: url("img/background.jpg");
+				background-size: 1366px 768px;
+				background-repeat:no-repeat;
+			}
+			
+			h1{
+				font-family: 'Ribeye', cursive;
+				padding-left: 430px;
+				color: white;
+			}
+			
+			#footer{
+				font-family: 'Ribeye', cursive;
+				color: white;
+				margin-top: 30px;
+				text-align: center;
+			}

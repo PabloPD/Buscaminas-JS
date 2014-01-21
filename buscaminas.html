@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charste="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Ribeye|Chango' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/codigo.js"></script>
+	<style>
+		body{
+				background-image: url("img/background.jpg");
+				background-size: 1366px 768px;
+				background-repeat:no-repeat;
+	</style>		
+	</head>
+	<body onload="cargarTablero();">
+		<h1> Buscaminas JavaScript</h1>
+		<div id="tablerominas" class="tablero">
+	</div>
+		<div id="footer">Copyright 2014 | Ethan Rivas | Proyecto "Buscaminas"</div>
+	</body>
+
+	<script>
+		function cargarTablero(){
+			crearTablero();
+			generarBombas(minas);
+			bombasAlrededor(minas);
+		}
+	</script>
+	
+</html>
